@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.links.OutboundLinkSecurityTest$ForwardedHeaders" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-11-22T01:20:23.316Z" hostname="192.168.1.145" time="0.005">
+  <properties/>
+  <testcase name="forwardedHostFromUntrustedClientIsIgnored()" classname="com.example.links.OutboundLinkSecurityTest$ForwardedHeaders" time="0.001"/>
+  <testcase name="emptyForwardedHostFallsBackToHostHeader()" classname="com.example.links.OutboundLinkSecurityTest$ForwardedHeaders" time="0.0"/>
+  <testcase name="httpsOnlyConfigIgnoresForwardedProtoEntirely()" classname="com.example.links.OutboundLinkSecurityTest$ForwardedHeaders" time="0.001"/>
+  <testcase name="forwardedProtoMustBeHttpOrHttps()" classname="com.example.links.OutboundLinkSecurityTest$ForwardedHeaders" time="0.0"/>
+  <testcase name="forwardedHostSelectsConfiguredSiteBehindTrustedProxy()" classname="com.example.links.OutboundLinkSecurityTest$ForwardedHeaders" time="0.0"/>
+  <testcase name="ipv6TrustedProxyIsRecognized()" classname="com.example.links.OutboundLinkSecurityTest$ForwardedHeaders" time="0.0"/>
+  <testcase name="attackerForwardedHostBehindTrustedProxyFallsBackToDefault()" classname="com.example.links.OutboundLinkSecurityTest$ForwardedHeaders" time="0.001"/>
+  <testcase name="forwardedProtoHonoredOnlyFromTrustedProxy()" classname="com.example.links.OutboundLinkSecurityTest$ForwardedHeaders" time="0.0"/>
+  <testcase name="commaJoinedForwardedHostUsesFirstValueAsWhitelistKey()" classname="com.example.links.OutboundLinkSecurityTest$ForwardedHeaders" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.links.OutboundLinkSecurityTest$SiteAndLocaleSelection" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-11-22T01:20:23.310Z" hostname="192.168.1.145" time="0.006">
+  <properties/>
+  <testcase name="defaultLocaleHasNoPrefix()" classname="com.example.links.OutboundLinkSecurityTest$SiteAndLocaleSelection" time="0.0"/>
+  <testcase name="euSiteLocalesAreIndependent()" classname="com.example.links.OutboundLinkSecurityTest$SiteAndLocaleSelection" time="0.001"/>
+  <testcase name="aliasHostSelectsSameSiteButLinkUsesCanonicalHost()" classname="com.example.links.OutboundLinkSecurityTest$SiteAndLocaleSelection" time="0.0"/>
+  <testcase name="idnSiteReachableByUnicodeAndPunycode()" classname="com.example.links.OutboundLinkSecurityTest$SiteAndLocaleSelection" time="0.0"/>
+  <testcase name="localeCannotInjectPathSegments()" classname="com.example.links.OutboundLinkSecurityTest$SiteAndLocaleSelection" time="0.001"/>
+  <testcase name="nonStandardPortComesFromConfig()" classname="com.example.links.OutboundLinkSecurityTest$SiteAndLocaleSelection" time="0.0"/>
+  <testcase name="unsupportedLocaleFallsBackToSiteDefault()" classname="com.example.links.OutboundLinkSecurityTest$SiteAndLocaleSelection" time="0.001"/>
+  <testcase name="nonDefaultLocaleGetsPathPrefix()" classname="com.example.links.OutboundLinkSecurityTest$SiteAndLocaleSelection" time="0.0"/>
+  <testcase name="outerProxyBasePathIsPreserved()" classname="com.example.links.OutboundLinkSecurityTest$SiteAndLocaleSelection" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
